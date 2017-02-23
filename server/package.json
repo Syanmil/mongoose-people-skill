@@ -9,6 +9,7 @@
   "author": "Syanmil",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "body-parser": "^1.16.1",
     "cors": "^2.8.1",
     "dotenv": "^4.0.0",

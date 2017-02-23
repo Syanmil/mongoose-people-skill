@@ -11,6 +11,7 @@ var app = express()
 //Database
 mongoose.connect(process.env.MONGODB_URI);
 mongoose.Promise = global.Promise;
+mongoose.Promise = require('bluebird');
 
 mongoose.connection.on('error', console.error.bind(console, 'connection error:'));
 mongoose.connection.once('open', function() {
